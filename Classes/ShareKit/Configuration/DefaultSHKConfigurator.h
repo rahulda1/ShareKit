@@ -29,7 +29,7 @@
 
 @class SHKFile;
 
-@interface DefaultSHKConfigurator : NSObject 
+@interface DefaultSHKConfigurator : NSObject
 
 - (NSString*)appName;
 - (NSString*)appURL;
@@ -81,18 +81,12 @@
 - (NSString *)plurkAppSecret;
 - (NSString *)plurkCallbackURL;
 - (NSNumber *)instagramLetterBoxImages;
-- (UIColor *)instagramLetterBoxColor;
 - (NSNumber *)instagramOnly;
 - (NSString*)youTubeConsumerKey;
 - (NSString*)youTubeSecret;
 - (NSNumber *)useAppleShareUI;
 - (NSNumber*)shareMenuAlphabeticalOrder;
 - (NSString*)barStyle;
-- (UIColor*)barTintForView:(UIViewController*)vc;
-- (UIColor*)formFontColor;
-- (UIColor*)formBackgroundColor;
-- (NSString*)modalPresentationStyleForController:(UIViewController *)controller;
-- (NSString*)modalTransitionStyleForController:(UIViewController *)controller;
 - (NSNumber*)maxFavCount;
 - (NSNumber*)autoOrderFavoriteSharers;
 - (NSString*)favsPrefixKey;

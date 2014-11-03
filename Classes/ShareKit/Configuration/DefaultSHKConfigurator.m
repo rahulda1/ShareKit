@@ -64,15 +64,6 @@
  leaving that decision up to the user.
  */
 
-// OneNote - https://account.live.com/developers/applications
-- (NSString*)onenoteClientId {
-    return @"";
-}
-// Vkontakte
-// SHKVkontakteAppID is the Application ID provided by Vkontakte
-- (NSString*)vkontakteAppId {
-	return @"";
-}
 
 /*
 Forces using Facebook-ios-sdk instead of Apple's native Social.framework and Accounts.framework. Pre iOS6 posting means using SHKFacebook, instead of SHKiOSFacebook. Consequences of this are that user logs in via SSO trip to Safari/Facebook.app. (Instead of getting credentials from iOS settings). This way also share form is ShareKit's instead of iOS native SLComposeViewController.
@@ -133,17 +124,6 @@ One of the troubles with the native share form is that it gives IOS6 props on fa
  */
 - (NSString*)googlePlusClientId {
     return @"";
-}
-
-//Pocket v3 consumer key. http://getpocket.com/developer/apps/. If you have old read it later app, you should obtain new key.
-- (NSString *)pocketConsumerKey {
-    
-    return @"";
-}
-
-// Diigo - http://www.diigo.com/api_keys/new/
-- (NSString*)diigoKey {
-  return @"";
 }
 
 // Twitter
@@ -322,113 +302,6 @@ One of the troubles with the native share form is that it gives IOS6 props on fa
   return @"";
 }
 
-// Instagram
-
-// Instagram crops images by default
-- (NSNumber*)instagramLetterBoxImages {
-    return [NSNumber numberWithBool:YES];
-}
-
-- (UIColor *)instagramLetterBoxColor
-{
-    return [UIColor whiteColor];
-}
-
-///only show instagram in the application list (instead of Instagram plus any other public/jpeg-conforming apps) 
-- (NSNumber *)instagramOnly {
-    return [NSNumber numberWithBool:YES];
-}
-
-// YouTube - https://developers.google.com/youtube/v3/guides/authentication#OAuth2_Register
-- (NSString*)youTubeConsumerKey {
-	return @"";
-}
-
-- (NSString*)youTubeSecret {
-	return @"";
-}
-
-// Dropbox - https://www.dropbox.com/developers/apps
-- (NSString *) dropboxAppKey {
-    return @"";
-}
-- (NSString *) dropboxAppSecret {
-    return @"";
-}
-/*
- This setting should correspond with permission type set during your app registration with Dropbox. You can choose from these two values:
- @"sandbox" (set if you chose permission type "App folder". You will have access only to the app folder you set in  https://www.dropbox.com/developers/apps)
- @"dropbox" (set if you chose permission type "Full dropbox")
- */
-- (NSString *) dropboxRootFolder {
-    return @"sandbox";
-}
-
-// if you set NO, a dialogue will appear to ask user if he really wants to overwrite. Otherwise the file is silently overwritten.
-- (NSNumber *)dropboxShouldOverwriteExistedFile {
-    return [NSNumber numberWithBool:YES];
-}
-
-// Buffer
-/*
- 1 - Set up an app at https://bufferapp.com/developers/apps/create
- 2 - Once the app is set up this requires a URL Scheme to be set up within your apps info.plist. bufferXXXX where XXXX is your client ID, this will enable Buffer authentication.
- 3 - Set bufferShouldShortenURLS. NO will use ShareKit's shortening (if available). YES will use Buffer's shortener once the sheet is autheorised and presented.
-*/
-
-- (NSString*)bufferClientID
-{
-	return @"";
-}
-
-- (NSString*)bufferClientSecret
-{
-	return @"";
-}
-
-- (NSNumber *)bufferShouldShortenURLS {
-    return [NSNumber numberWithBool:YES];
-}
-
-// Imgur
-/*
- 1. Set up an app at https://api.imgur.com/oauth2/addclient
- 2. 'Callback URL' should match whatever you enter in SHKImgurCallbackURL.  The callback url doesn't have to be an actual existing url.  The user will never get to it because ShareKit intercepts it before the user is redirected.  It just needs to match.
- */
-
-- (NSString *)imgurClientID {
-    return @"";
-}
-
-- (NSString *)imgurClientSecret {
-    return @"";
-}
-
-- (NSString *)imgurCallbackURL {
-    return @"";
-}
-
-///This removes user authorization. It allows image to be uploaded anonymously, without being tied to an account. More info is here: http://www.cimgf.com/2013/03/18/anonymous-image-file-upload-in-ios-with-imgur/
-- (NSNumber *)imgurAnonymousUploads {
-    return @NO;
-}
-
-///You can get Pinterest client ID from https://developers.pinterest.com/manage/
-- (NSString *)pinterestClientId {
-    return @"";
-}
-
-#pragma mark - Basic UI Configuration
-
-/*
- UI Configuration : Basic
- ------------------------
- These provide controls for basic UI settings.  For more advanced configuration see below.
- */
-
-/*
- For sharers supported by Social.framework you can choose to present Apple's UI (SLComposeViewController) or ShareKit's UI (you can customize ShareKit's UI). Note that SLComposeViewController has only limited sharing capabilities, e.g. for file sharing on Twitter (photo files, video files, large UIImages) ShareKit's UI will be used anyway.
- */
 - (NSNumber *)useAppleShareUI {
     return @YES;
 }
