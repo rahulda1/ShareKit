@@ -182,11 +182,6 @@ Pod::Spec.new do |s|
     openinchrome.dependency 'ShareKit/Core'
   end
 
-  s.subspec 'Open in 1Password' do |onepassword|
-    onepassword.source_files = 'Classes/ShareKit/Sharers/Actions/Add to 1Password/**/*.{h,m}'
-    onepassword.dependency 'ShareKit/Core'
-  end
-
   s.subspec 'GooglePlus' do |googleplus|
     googleplus.source_files = 'Classes/ShareKit/Sharers/Services/Google Plus/**/*.{h,m}', 'Frameworks/GoogleOpenSource.framework/Versions/A/Headers/*.h'
     googleplus.vendored_frameworks = 'Frameworks/GooglePlus.framework', 'Frameworks/GoogleOpenSource.framework'
