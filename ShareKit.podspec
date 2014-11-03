@@ -164,13 +164,6 @@ Pod::Spec.new do |s|
     pinterest.dependency 'ShareKit/Core'
   end
 
-  s.subspec 'OneNote' do |onenote|
-    onenote.source_files = 'Classes/ShareKit/Sharers/Services/OneNote/**/*.{h,m}'
-    onenote.dependency 'ShareKit/Core'
-    onenote.vendored_frameworks = 'Frameworks/LiveSDK.framework'
-    onenote.resource = 'Frameworks/LiveSDK.framework'
-  end
-
   s.subspec 'ReadingList' do |readinglist|
     readinglist.source_files = 'Classes/ShareKit/Sharers/Actions/Add to Safari Reading List/**/*.{h,m}'
     readinglist.dependency 'ShareKit/Core'
