@@ -38,72 +38,10 @@ Pod::Spec.new do |s|
     reachability.requires_arc = false
   end
 
-  s.subspec 'Evernote' do |evernote|
-    evernote.source_files = 'Classes/ShareKit/Sharers/Services/Evernote/**/*.{h,m}'
-    evernote.dependency 'Evernote-SDK-iOS', '~> 1.3.1'
-    evernote.dependency 'ShareKit/Core'
-    evernote.libraries = 'xml2'
-    evernote.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  end
-
   s.subspec 'Facebook' do |facebook|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
     facebook.dependency 'Facebook-iOS-SDK', '~> 3.16.2'
     facebook.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Flickr' do |flickr|
-    flickr.source_files = 'Classes/ShareKit/Sharers/Services/Flickr/SHK*.{h,m}'
-    flickr.framework = 'SystemConfiguration', 'CFNetwork'
-    flickr.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Foursquare' do |foursquare|
-    foursquare.source_files = 'Classes/ShareKit/Sharers/Services/FoursquareV2/**/*.{h,m}'
-    foursquare.framework = 'CoreLocation'
-    foursquare.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Delicious' do |delicious|
-    delicious.source_files = 'Classes/ShareKit/Sharers/Services/Delicious/**/*.{h,m}'
-    delicious.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Hatena' do |hatena|
-    hatena.source_files = 'Classes/ShareKit/Sharers/Services/Hatena/**/*.{h,m}'
-    hatena.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Kippt' do |kippt|
-    kippt.source_files = 'Classes/ShareKit/Sharers/Services/Kippt/**/*.{h,m}'
-    kippt.dependency 'ShareKit/Core'
-  end
-
-   s.subspec 'Plurk' do |plurk|
-    plurk.source_files = 'Classes/ShareKit/Sharers/Services/Plurk/**/*.{h,m}'
-    plurk.dependency 'ShareKit/Core'
-  end
-
-   s.subspec 'Pocket' do |pocket|
-    pocket.source_files = 'Classes/ShareKit/Sharers/Services/Pocket/**/*.{h,m}'
-    pocket.dependency 'ShareKit/Core'
-    pocket.dependency 'PocketAPI', '~> 1.0.2'
-  end
-
-  s.subspec 'Diigo' do |diigo|
-    diigo.source_files = 'Classes/ShareKit/Sharers/Services/Diigo/**/*.{h,m}'
-    diigo.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Dropbox' do |dropbox|
-    dropbox.source_files = 'Classes/ShareKit/Sharers/Services/Dropbox/**/*.{h,m}'
-    dropbox.dependency 'ShareKit/Core'
-    dropbox.dependency 'Dropbox-iOS-SDK', '~> 1.3.11'
-  end
-
-  s.subspec 'Instapaper' do |instapaper|
-    instapaper.source_files = 'Classes/ShareKit/Sharers/Services/Instapaper/**/*.{h,m}'
-    instapaper.dependency 'ShareKit/Core'
   end
 
   s.subspec 'LinkedIn' do |linkedin|
@@ -111,97 +49,10 @@ Pod::Spec.new do |s|
     linkedin.dependency 'ShareKit/Core'
   end
 
-  s.subspec 'Pinboard' do |pinboard|
-    pinboard.source_files = 'Classes/ShareKit/Sharers/Services/Pinboard/**/*.{h,m}'
-    pinboard.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Readability' do |readability|
-    readability.source_files = 'Classes/ShareKit/Sharers/Services/Readability/**/*.{h,m}'
-    readability.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'ReadItLater' do |readitlater|
-    readitlater.source_files = 'Classes/ShareKit/Sharers/Services/Read It Later/**/*.{h,m}'
-    readitlater.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Tumblr' do |tumblr|
-    tumblr.source_files = 'Classes/ShareKit/Sharers/Services/Tumblr/**/*.{h,m}'
-    tumblr.dependency 'ShareKit/Core'
-  end
-
   s.subspec 'Twitter' do |twitter|
     twitter.source_files = 'Classes/ShareKit/Sharers/Services/Twitter/**/*.{h,m}'
     twitter.framework = 'Twitter','Social'
     twitter.dependency 'ShareKit/Core'
   end
-
- s.subspec 'SinaWeibo' do |sinaweibo|
-    sinaweibo.source_files = 'Classes/ShareKit/Sharers/Services/Sina Weibo/**/*.{h,m}'
-    sinaweibo.dependency 'ShareKit/Core'
-    sinaweibo.framework = 'Social'
-  end
-
-  s.subspec 'Vkontakte' do |vkontakte|
-    vkontakte.source_files = 'Classes/ShareKit/Sharers/Services/Vkontakte/**/*.{h,m}'
-    vkontakte.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Instagram' do |instagram|
-    instagram.source_files = 'Classes/ShareKit/Sharers/Services/Instagram/**/*.{h,m}'
-    instagram.dependency 'ShareKit/Core'
-  end
-  
-  s.subspec 'Imgur' do |imgur|
-    imgur.source_files = 'Classes/ShareKit/Sharers/Services/Imgur/**/*.{h,m}'
-    imgur.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'Pinterest' do |pinterest|
-    pinterest.source_files = 'Classes/ShareKit/Sharers/Services/Pinterest/**/*.{h,m}'
-    pinterest.dependency 'Pinterest-iOS', '~> 2.3'
-    pinterest.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'ReadingList' do |readinglist|
-    readinglist.source_files = 'Classes/ShareKit/Sharers/Actions/Add to Safari Reading List/**/*.{h,m}'
-    readinglist.dependency 'ShareKit/Core'
-    readinglist.weak_frameworks    = 'SafariServices'
-  end
-
-  s.subspec 'Open in Google Chrome' do |openinchrome|
-    openinchrome.source_files = 'Classes/ShareKit/Sharers/Actions/Open in Chrome/**/*.{h,m}'
-    openinchrome.dependency 'ShareKit/Core'
-  end
-
-  s.subspec 'GooglePlus' do |googleplus|
-    googleplus.source_files = 'Classes/ShareKit/Sharers/Services/Google Plus/**/*.{h,m}', 'Frameworks/GoogleOpenSource.framework/Versions/A/Headers/*.h'
-    googleplus.vendored_frameworks = 'Frameworks/GooglePlus.framework', 'Frameworks/GoogleOpenSource.framework'
-    googleplus.resource = "Frameworks/GooglePlus.bundle"
-    googleplus.framework = 'AssetsLibrary', 'CoreLocation', 'CoreMotion', 'CoreGraphics', 'CoreText', 'MediaPlayer', 'Security', 'SystemConfiguration', 'AddressBook'
-    googleplus.dependency 'ShareKit/Core'
-  end
-
-  #working version of YouTube subspec. It uses cutting edge Google-API-Client, which is incopatible with current GooglePlus (GooglePlus needs older version). Unfortunately older version of Google-API-Client is not available on CocoaPods. You have to choose between YouTube or GooglePlus - can not use both at the moment, as there would be duplicate symbols (Google-API-Client vs. GoogleOpenSource.framework).
-
-  #s.subspec 'YouTube' do |youtube|
-    #youtube.source_files = 'Classes/ShareKit/Sharers/Services/YouTube/**/*.{h,m}'
-    #youtube.dependency 'ShareKit/Core'
-    #youtube.dependency 'Google-API-Client/YouTube'
-  #end
-
-  #This version of GooglePlus subspec can coexist with YouTube. The prerequisite is that GooglePlus.framework can be used with 'Google-API-Client/Services/Plus'. Otherwise we must use GoogleOpenSource.framework, which causes conflicts with youtube subspec
-
-  #s.subspec 'GooglePlus' do |googleplus|
-    #googleplus.source_files = 'Classes/ShareKit/Sharers/Services/Google Plus/**/*.{h,m}'
-    #googleplus.vendored_frameworks = 'Frameworks/GooglePlus.framework'
-    #googleplus.resource = "Frameworks/GooglePlus.bundle"
-    #googleplus.framework = 'AssetsLibrary', 'CoreLocation', 'CoreMotion', 'CoreGraphics', 'CoreText', 'MediaPlayer', 'Security', 'SystemConfiguration', 'AddressBook'
-    #googleplus.dependency 'ShareKit/Core'
-    #googleplus.dependency 'Google-API-Client/Plus'
-    #googleplus.dependency 'OpenInChrome'
-    #googleplus.dependency 'gtm-logger'
-  #end
 
 end
