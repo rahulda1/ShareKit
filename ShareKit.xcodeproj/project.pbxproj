@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		456BADAB169107D1005B3077 /* SHKGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BADA9169107D1005B3077 /* SHKGooglePlus.h */; };
-		456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BADAA169107D1005B3077 /* SHKGooglePlus.m */; };
-		456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503EBC0169104470057294C /* libGoogle Plus.a */; };
-		4979F30E18DCE9B7000F1733 /* libImgur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4932D60E18DCBD840075FEE8 /* libImgur.a */; };
 		78424C3C1900235400BB344F /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78424C391900235000BB344F /* SAMTextView.h */; };
 		78424C3D1900235800BB344F /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78424C381900235000BB344F /* SAMTextView.m */; };
 		7A04074618313A5F00691F2B /* SHKFacebookCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A04074418313A5F00691F2B /* SHKFacebookCommon.h */; };
@@ -74,7 +70,6 @@
 		7A380C901891400600F7F054 /* SHKUploadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A380C8E1891400600F7F054 /* SHKUploadsViewController.m */; };
 		7A3A0D83170CBDD300A0B717 /* SHKFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3A0D81170CBDD300A0B717 /* SHKFile.h */; };
 		7A3A0D84170CBDD300A0B717 /* SHKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A0D82170CBDD300A0B717 /* SHKFile.m */; };
-		7A49DBC716BC19BD004B7E78 /* libReadability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A49DBC316BC193E004B7E78 /* libReadability.a */; };
 		7A56BFC41659173D00134F04 /* SHKiOSSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56BFC01659173D00134F04 /* SHKiOSSharer.m */; };
 		7A56BFDE16591FE000134F04 /* SHKiOSFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56BFD916591FE000134F04 /* SHKiOSFacebook.m */; };
 		7A57618F17A8034A00B38ACB /* SHKFormFieldCellTextLarge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A57618D17A8034900B38ACB /* SHKFormFieldCellTextLarge.h */; };
@@ -85,8 +80,6 @@
 		7A5C28D61896C23D00E47E62 /* SHKUploadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5C28D41896C23D00E47E62 /* SHKUploadInfo.m */; };
 		7A5C28DF189BA57100E47E62 /* SHKMBRoundProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5C28DD189BA57100E47E62 /* SHKMBRoundProgressView.h */; };
 		7A5C28E0189BA57100E47E62 /* SHKMBRoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5C28DE189BA57100E47E62 /* SHKMBRoundProgressView.m */; };
-		7A70B2AA191C7E950070C5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		7A70B2ED191C91390070C5FB /* libPinterest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A70B2AF191C7E950070C5FB /* libPinterest.a */; };
 		7A72AD06189FD9490039D762 /* SHKAccountsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A72AD04189FD9490039D762 /* SHKAccountsViewController.h */; };
 		7A72AD07189FD9490039D762 /* SHKAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A72AD05189FD9490039D762 /* SHKAccountsViewController.m */; };
 		7A74C18716E8A64400CFDFC3 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74C18616E8A64400CFDFC3 /* Singleton.h */; };
@@ -103,8 +96,6 @@
 		7A930ED6180D86180066C399 /* UIApplication+iOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A930ED4180D86180066C399 /* UIApplication+iOSVersion.m */; };
 		7A9E123318BE3F02006504BC /* SHKSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9E123218BE3F02006504BC /* SHKSessionDelegate.h */; };
 		7A9FEF35180403520053CB40 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FEF1E180403520053CB40 /* Localizable.strings */; };
-		7AA2E9F91743E5B200B17434 /* libPocket SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E4663173E2C2500CCEE80 /* libPocket SDK.a */; };
-		7AA2E9FA1743E5B200B17434 /* libPocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E465A173E2B2900CCEE80 /* libPocket.a */; };
 		7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAE8CA516EB960500429C51 /* libPlurk.a */; };
 		7AB8051115AC7BCC004FB430 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FBAEE15934A0D0024F825 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7AB8A564192505B200EC73A2 /* PKMultipartInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADB644118C5C05800B5AF7F /* PKMultipartInputStream.h */; };
@@ -148,31 +139,19 @@
 		7ABDD99817A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABDD99617A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.h */; };
 		7ABDD99917A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDD99717A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.m */; };
 		7AC28F0B165A21C2006D7441 /* libCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECD2162F0756009D46E4 /* libCopy.a */; };
-		7AC28F0C165A21C2006D7441 /* libDelicious.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED08162F0858009D46E4 /* libDelicious.a */; };
-		7AC28F0D165A21C2006D7441 /* libDiigo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED11162F087F009D46E4 /* libDiigo.a */; };
 		7AC28F0E165A21C2006D7441 /* libEmail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECDB162F0779009D46E4 /* libEmail.a */; };
-		7AC28F0F165A21C2006D7441 /* libEvernote SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFCE2160E127B0086B98A /* libEvernote SDK.a */; };
-		7AC28F10165A21C2006D7441 /* libEvernote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED24162F08E6009D46E4 /* libEvernote.a */; };
 		7AC28F11165A21C2006D7441 /* libFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED37162F0B65009D46E4 /* libFacebook.a */; };
-		7AC28F13165A21C2006D7441 /* libFlickr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED50162F0BA7009D46E4 /* libFlickr.a */; };
-		7AC28F14165A21C2006D7441 /* libFoursquareV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED46162F0B86009D46E4 /* libFoursquareV2.a */; };
-		7AC28F16165A21C2006D7441 /* libInstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A16F3C216134A890019645D /* libInstagram.a */; };
-		7AC28F17165A21C2006D7441 /* libInstapaper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED62162F0BE8009D46E4 /* libInstapaper.a */; };
 		7AC28F1A165A21C2006D7441 /* libLinkedIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED6B162F0C03009D46E4 /* libLinkedIn.a */; };
 		7AC28F1B165A21C2006D7441 /* libLogout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECC9162F0719009D46E4 /* libLogout.a */; };
 		7AC28F1C165A21C2006D7441 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A16F37E161340DD0019645D /* libOAuth.a */; };
 		7AC28F1D165A21C2006D7441 /* libOpen in Safari.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECE4162F07B4009D46E4 /* libOpen in Safari.a */; };
-		7AC28F1E165A21C2006D7441 /* libPinboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED74162F0C1A009D46E4 /* libPinboard.a */; };
 		7AC28F1F165A21C2006D7441 /* libPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECBE162F063F009D46E4 /* libPrint.a */; };
 		7AC28F20165A21C2006D7441 /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFCD1160E123C0086B98A /* libReachability.a */; };
 		7AC28F22165A21C2006D7441 /* libSave to Album.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECED162F07DF009D46E4 /* libSave to Album.a */; };
 		7AC28F23165A21C2006D7441 /* libShareKitCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F9246156BA2A0009CB40A /* libShareKitCore.a */; };
-		7AC28F24165A21C2006D7441 /* libSina Weibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC2A3A016597F4C0089ABE8 /* libSina Weibo.a */; };
 		7AC28F25165A21C2006D7441 /* libSSKeyChain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFCC0160E11F90086B98A /* libSSKeyChain.a */; };
 		7AC28F26165A21C2006D7441 /* libText Message.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECF6162F080F009D46E4 /* libText Message.a */; };
-		7AC28F27165A21C2006D7441 /* libTumblr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED86162F0C4D009D46E4 /* libTumblr.a */; };
 		7AC28F28165A21C2006D7441 /* libTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFD3A160E14340086B98A /* libTwitter.a */; };
-		7AC28F29165A21C2006D7441 /* libVKontakte.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED1B162F08A3009D46E4 /* libVKontakte.a */; };
 		7ACABC78188FDD6B00EBFDB1 /* SHKSharer_protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACABC77188FDD6B00EBFDB1 /* SHKSharer_protected.h */; };
 		7ACD3B06184DE7CE0096CEA5 /* testXMLAttributes3.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ACD3B05184DE7CE0096CEA5 /* testXMLAttributes3.xml */; };
 		7ACD3B09184DF0C40096CEA5 /* NSDictionary+Recursive.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACD3B07184DF0C40096CEA5 /* NSDictionary+Recursive.h */; };
@@ -191,69 +170,10 @@
 		7ADF828217ABBD7F007634E8 /* SHKShareFileIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADF828017ABBD7F007634E8 /* SHKShareFileIcon@2x.png */; };
 		7AE8DC7C165B549B004D99D2 /* DummyLibFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE8DC7A165B549B004D99D2 /* DummyLibFile.h */; };
 		7AE8DC7D165B549B004D99D2 /* DummyLibFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8DC7B165B549B004D99D2 /* DummyLibFile.m */; };
-		7AECF323171D51BA000722FA /* SHKYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AECF319171D5165000722FA /* SHKYouTube.m */; };
-		7AECF39B171D529D000722FA /* GTLQueryYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF32F171D529D000722FA /* GTLQueryYouTube.h */; };
-		7AECF39D171D529D000722FA /* GTLServiceYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF331171D529D000722FA /* GTLServiceYouTube.h */; };
-		7AECF39F171D529D000722FA /* GTLYouTube_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AECF333171D529D000722FA /* GTLYouTube_Sources.m */; };
-		7AECF3A0171D529D000722FA /* GTLYouTube.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF334171D529D000722FA /* GTLYouTube.h */; };
-		7AECF3A1171D529D000722FA /* GTLYouTubeAccessPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF335171D529D000722FA /* GTLYouTubeAccessPolicy.h */; };
-		7AECF3A3171D529D000722FA /* GTLYouTubeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF337171D529D000722FA /* GTLYouTubeActivity.h */; };
-		7AECF3A5171D529D000722FA /* GTLYouTubeActivityContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF339171D529D000722FA /* GTLYouTubeActivityContentDetails.h */; };
-		7AECF3A7171D529D000722FA /* GTLYouTubeActivityListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF33B171D529D000722FA /* GTLYouTubeActivityListResponse.h */; };
-		7AECF3A9171D529D000722FA /* GTLYouTubeActivitySnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF33D171D529D000722FA /* GTLYouTubeActivitySnippet.h */; };
-		7AECF3AB171D529D000722FA /* GTLYouTubeChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF33F171D529D000722FA /* GTLYouTubeChannel.h */; };
-		7AECF3AD171D529D000722FA /* GTLYouTubeChannelContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF341171D529D000722FA /* GTLYouTubeChannelContentDetails.h */; };
-		7AECF3AF171D529D000722FA /* GTLYouTubeChannelListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF343171D529D000722FA /* GTLYouTubeChannelListResponse.h */; };
-		7AECF3B1171D529D000722FA /* GTLYouTubeChannelSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF345171D529D000722FA /* GTLYouTubeChannelSnippet.h */; };
-		7AECF3B3171D529D000722FA /* GTLYouTubeChannelStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF347171D529D000722FA /* GTLYouTubeChannelStatistics.h */; };
-		7AECF3B5171D529D000722FA /* GTLYouTubeChannelStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF349171D529D000722FA /* GTLYouTubeChannelStatus.h */; };
-		7AECF3B7171D529D000722FA /* GTLYouTubeChannelTopicDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF34B171D529D000722FA /* GTLYouTubeChannelTopicDetails.h */; };
-		7AECF3B9171D529D000722FA /* GTLYouTubeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF34D171D529D000722FA /* GTLYouTubeConstants.h */; };
-		7AECF3BB171D529D000722FA /* GTLYouTubeGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF34F171D529D000722FA /* GTLYouTubeGeoPoint.h */; };
-		7AECF3BD171D529D000722FA /* GTLYouTubeGuideCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF351171D529D000722FA /* GTLYouTubeGuideCategory.h */; };
-		7AECF3BF171D529D000722FA /* GTLYouTubeGuideCategoryListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF353171D529D000722FA /* GTLYouTubeGuideCategoryListResponse.h */; };
-		7AECF3C1171D529D000722FA /* GTLYouTubeGuideCategorySnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF355171D529D000722FA /* GTLYouTubeGuideCategorySnippet.h */; };
-		7AECF3C3171D529D000722FA /* GTLYouTubePageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF357171D529D000722FA /* GTLYouTubePageInfo.h */; };
-		7AECF3C5171D529D000722FA /* GTLYouTubePlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF359171D529D000722FA /* GTLYouTubePlaylist.h */; };
-		7AECF3C7171D529D000722FA /* GTLYouTubePlaylistContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF35B171D529D000722FA /* GTLYouTubePlaylistContentDetails.h */; };
-		7AECF3C9171D529D000722FA /* GTLYouTubePlaylistItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF35D171D529D000722FA /* GTLYouTubePlaylistItem.h */; };
-		7AECF3CB171D529D000722FA /* GTLYouTubePlaylistItemContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF35F171D529D000722FA /* GTLYouTubePlaylistItemContentDetails.h */; };
-		7AECF3CD171D529D000722FA /* GTLYouTubePlaylistItemListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF361171D529D000722FA /* GTLYouTubePlaylistItemListResponse.h */; };
-		7AECF3CF171D529D000722FA /* GTLYouTubePlaylistItemSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF363171D529D000722FA /* GTLYouTubePlaylistItemSnippet.h */; };
-		7AECF3D1171D529D000722FA /* GTLYouTubePlaylistListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF365171D529D000722FA /* GTLYouTubePlaylistListResponse.h */; };
-		7AECF3D3171D529D000722FA /* GTLYouTubePlaylistPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF367171D529D000722FA /* GTLYouTubePlaylistPlayer.h */; };
-		7AECF3D5171D529D000722FA /* GTLYouTubePlaylistSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF369171D529D000722FA /* GTLYouTubePlaylistSnippet.h */; };
-		7AECF3D7171D529D000722FA /* GTLYouTubePlaylistStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF36B171D529D000722FA /* GTLYouTubePlaylistStatus.h */; };
-		7AECF3D9171D529D000722FA /* GTLYouTubeResourceId.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF36D171D529D000722FA /* GTLYouTubeResourceId.h */; };
-		7AECF3DB171D529D000722FA /* GTLYouTubeSearchListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF36F171D529D000722FA /* GTLYouTubeSearchListResponse.h */; };
-		7AECF3DD171D529D000722FA /* GTLYouTubeSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF371171D529D000722FA /* GTLYouTubeSearchResult.h */; };
-		7AECF3DF171D529D000722FA /* GTLYouTubeSearchResultSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF373171D529D000722FA /* GTLYouTubeSearchResultSnippet.h */; };
-		7AECF3E1171D529D000722FA /* GTLYouTubeSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF375171D529D000722FA /* GTLYouTubeSubscription.h */; };
-		7AECF3E3171D529D000722FA /* GTLYouTubeSubscriptionContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF377171D529D000722FA /* GTLYouTubeSubscriptionContentDetails.h */; };
-		7AECF3E5171D529D000722FA /* GTLYouTubeSubscriptionListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF379171D529D000722FA /* GTLYouTubeSubscriptionListResponse.h */; };
-		7AECF3E7171D529D000722FA /* GTLYouTubeSubscriptionSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF37B171D529D000722FA /* GTLYouTubeSubscriptionSnippet.h */; };
-		7AECF3E9171D529D000722FA /* GTLYouTubeThumbnail.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF37D171D529D000722FA /* GTLYouTubeThumbnail.h */; };
-		7AECF3EB171D529D000722FA /* GTLYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF37F171D529D000722FA /* GTLYouTubeVideo.h */; };
-		7AECF3ED171D529D000722FA /* GTLYouTubeVideoCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF381171D529D000722FA /* GTLYouTubeVideoCategory.h */; };
-		7AECF3EF171D529D000722FA /* GTLYouTubeVideoCategoryListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF383171D529D000722FA /* GTLYouTubeVideoCategoryListResponse.h */; };
-		7AECF3F1171D529D000722FA /* GTLYouTubeVideoCategorySnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF385171D529D000722FA /* GTLYouTubeVideoCategorySnippet.h */; };
-		7AECF3F3171D529D000722FA /* GTLYouTubeVideoContentDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF387171D529D000722FA /* GTLYouTubeVideoContentDetails.h */; };
-		7AECF3F5171D529D000722FA /* GTLYouTubeVideoContentDetailsRegionRestriction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF389171D529D000722FA /* GTLYouTubeVideoContentDetailsRegionRestriction.h */; };
-		7AECF3F7171D529D000722FA /* GTLYouTubeVideoListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF38B171D529D000722FA /* GTLYouTubeVideoListResponse.h */; };
-		7AECF3F9171D529D000722FA /* GTLYouTubeVideoMonetizationDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF38D171D529D000722FA /* GTLYouTubeVideoMonetizationDetails.h */; };
-		7AECF3FB171D529D000722FA /* GTLYouTubeVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF38F171D529D000722FA /* GTLYouTubeVideoPlayer.h */; };
-		7AECF3FD171D529D000722FA /* GTLYouTubeVideoRecordingDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF391171D529D000722FA /* GTLYouTubeVideoRecordingDetails.h */; };
-		7AECF3FF171D529D000722FA /* GTLYouTubeVideoSnippet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF393171D529D000722FA /* GTLYouTubeVideoSnippet.h */; };
-		7AECF401171D529D000722FA /* GTLYouTubeVideoStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF395171D529D000722FA /* GTLYouTubeVideoStatistics.h */; };
-		7AECF403171D529D000722FA /* GTLYouTubeVideoStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF397171D529D000722FA /* GTLYouTubeVideoStatus.h */; };
-		7AECF405171D529D000722FA /* GTLYouTubeVideoTopicDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECF399171D529D000722FA /* GTLYouTubeVideoTopicDetails.h */; };
-		7AECF40E171D52DB000722FA /* libYouTube SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AECF32C171D51C3000722FA /* libYouTube SDK.a */; };
-		7AECF40F171D52DF000722FA /* libYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AECF322171D5194000722FA /* libYouTube.a */; };
 		7AEEDC8E18508E3600AD7E69 /* NSString+LinkedIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEEDC8C18508E3600AD7E69 /* NSString+LinkedIn.h */; };
 		7AEEDC8F18508E3600AD7E69 /* NSString+LinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEDC8D18508E3600AD7E69 /* NSString+LinkedIn.m */; };
 		7AF701F718BCCCF400438CE2 /* SHKSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF701F518BCCCF400438CE2 /* SHKSession.h */; };
 		7AF701F818BCCCF400438CE2 /* SHKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF701F618BCCCF400438CE2 /* SHKSession.m */; };
-		9492063917302B4C00DF9530 /* libKippt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECFF162F0835009D46E4 /* libKippt.a */; };
 		AABBECB8162F063F009D46E4 /* SHKPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA465F1E14CC3C5A00B52394 /* SHKPrint.m */; };
 		AABBECC3162F0719009D46E4 /* SHKLogout.m in Sources */ = {isa = PBXBuildFile; fileRef = E68738BF1416795C00D8C3DD /* SHKLogout.m */; };
 		AABBECCC162F0756009D46E4 /* SHKCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B911DBE3B9004A1712 /* SHKCopy.m */; };
@@ -263,9 +183,6 @@
 		AABBECF0162F080F009D46E4 /* SHKTextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379F3B11291C45700D2A41E /* SHKTextMessage.m */; };
 		AABBED29162F0B65009D46E4 /* SHKFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536DD11DBE3B9004A1712 /* SHKFacebook.m */; };
 		AABBED65162F0C03009D46E4 /* SHKLinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD00F3142B7B6D000862D9 /* SHKLinkedIn.m */; };
-		AABBED6E162F0C1A009D46E4 /* SHKPinboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536E311DBE3B9004A1712 /* SHKPinboard.m */; };
-		AC2195F418EA885C003DF6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		ACFC8BDA18EA8D6B008D72E9 /* libOneNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2195F318EA885C003DF6BD /* libOneNote.a */; };
 		C4823E10192931730099673A /* SHKChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = C4823E0F192931730099673A /* SHKChrome.h */; };
 		C4823E1C1929328C0099673A /* SHKChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = C4823E111929317D0099673A /* SHKChrome.m */; };
 		C4823E20192933070099673A /* libOpen in Chrome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4823E1B192932780099673A /* libOpen in Chrome.a */; };
@@ -278,54 +195,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		456BADAE16910966005B3077 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4503EBB8169104470057294C;
-			remoteInfo = "Google Plus";
-		};
-		4979F30C18DCE75B000F1733 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4932D60318DCBD840075FEE8;
-			remoteInfo = Imgur;
-		};
 		7A203D0D16EB7F5100421995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7A203D0216EB7DA200421995;
 			remoteInfo = Hatena;
-		};
-		7A49DBC516BC199F004B7E78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A49DBBB16BC193E004B7E78;
-			remoteInfo = Readability;
-		};
-		7A4E4664173E2C4F00CCEE80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A4E4652173E2B2900CCEE80;
-			remoteInfo = Pocket;
-		};
-		7A4E4666173E2C5300CCEE80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A4E465B173E2C2500CCEE80;
-			remoteInfo = "Pocket SDK";
-		};
-		7A70B2EB191C912C0070C5FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A70B2A4191C7E950070C5FB;
-			remoteInfo = Pinterest;
 		};
 		7A8C03CC1848CDEF008E4C0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -425,75 +300,12 @@
 			remoteGlobalIDString = AABBECEE162F080F009D46E4;
 			remoteInfo = "Text Message";
 		};
-		7AC28EE5165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED00162F0858009D46E4;
-			remoteInfo = Delicious;
-		};
-		7AC28EE9165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED09162F087F009D46E4;
-			remoteInfo = Diigo;
-		};
-		7AC28EEB165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED12162F08A3009D46E4;
-			remoteInfo = VKontakte;
-		};
-		7AC28EED165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED1C162F08E6009D46E4;
-			remoteInfo = Evernote;
-		};
-		7AC28EEF165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A1AFCD3160E127B0086B98A;
-			remoteInfo = "Evernote SDK";
-		};
 		7AC28EF1165A1EE7006D7441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AABBED25162F0B65009D46E4;
 			remoteInfo = Facebook;
-		};
-		7AC28EF3165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED38162F0B86009D46E4;
-			remoteInfo = FoursquareV2;
-		};
-		7AC28EF5165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED47162F0BA7009D46E4;
-			remoteInfo = Flickr;
-		};
-		7AC28EFB165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A16F3B316134A890019645D;
-			remoteInfo = Instagram;
-		};
-		7AC28EFD165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED5A162F0BE8009D46E4;
-			remoteInfo = Instapaper;
 		};
 		7AC28EFF165A1EE7006D7441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -502,20 +314,6 @@
 			remoteGlobalIDString = AABBED63162F0C03009D46E4;
 			remoteInfo = LinkedIn;
 		};
-		7AC28F01165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED6C162F0C1A009D46E4;
-			remoteInfo = Pinboard;
-		};
-		7AC28F05165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBED7E162F0C4D009D46E4;
-			remoteInfo = Tumbl;
-		};
 		7AC28F07165A1EE7006D7441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -523,47 +321,12 @@
 			remoteGlobalIDString = 7A1AFD2B160E14340086B98A;
 			remoteInfo = Twitter;
 		};
-		7AC28F09165A1EE7006D7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AC2A38E16597F4C0089ABE8;
-			remoteInfo = "Sina Weibo";
-		};
 		7ADB643F18C5BFF000B5AF7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7ADB642E18C5BF3B00B5AF7F;
 			remoteInfo = PKMultipartInputStream;
-		};
-		7AECF40A171D52D0000722FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AECF31A171D5194000722FA;
-			remoteInfo = YouTube;
-		};
-		7AECF40C171D52D4000722FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AECF324171D51C3000722FA;
-			remoteInfo = "YouTube SDK";
-		};
-		9492063117302B0700DF9530 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AABBECF7162F0835009D46E4;
-			remoteInfo = Kippt;
-		};
-		ACFC8BD818EA8D29008D72E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC2195F218EA885C003DF6BD;
-			remoteInfo = OneNote;
 		};
 		C4823E1E192932D30099673A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -596,24 +359,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7A70B2AB191C7E950070C5FB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2195F118EA885C003DF6BD /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE334C1F16F3339300FF692B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -708,10 +453,8 @@
 		43A536FD11DBE3B9004A1712 /* SHKShareMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SHKShareMenu.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		43D1DEEF11D5CDD200550D75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		43EF406D11D3FFF800B1F700 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		4503EBC0169104470057294C /* libGoogle Plus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGoogle Plus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456BADA9169107D1005B3077 /* SHKGooglePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKGooglePlus.h; path = "Google Plus/SHKGooglePlus.h"; sourceTree = "<group>"; };
 		456BADAA169107D1005B3077 /* SHKGooglePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHKGooglePlus.m; path = "Google Plus/SHKGooglePlus.m"; sourceTree = "<group>"; };
-		4932D60E18DCBD840075FEE8 /* libImgur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libImgur.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78424C381900235000BB344F /* SAMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAMTextView.m; path = Submodules/samtextview/SAMTextView/SAMTextView.m; sourceTree = SOURCE_ROOT; };
 		78424C391900235000BB344F /* SAMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAMTextView.h; path = Submodules/samtextview/SAMTextView/SAMTextView.h; sourceTree = SOURCE_ROOT; };
 		7A04074418313A5F00691F2B /* SHKFacebookCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFacebookCommon.h; sourceTree = "<group>"; };
@@ -731,10 +474,8 @@
 		7A164DC0157662ED00D55DB4 /* SHKFormFieldCellText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldCellText.h; sourceTree = "<group>"; };
 		7A164DC1157662ED00D55DB4 /* SHKFormFieldCellText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldCellText.m; sourceTree = "<group>"; };
 		7A16F37E161340DD0019645D /* libOAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A16F3C216134A890019645D /* libInstagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInstagram.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1AFCC0160E11F90086B98A /* libSSKeyChain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeyChain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1AFCD1160E123C0086B98A /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A1AFCE2160E127B0086B98A /* libEvernote SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libEvernote SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1AFD3A160E14340086B98A /* libTwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTwitter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A203D0A16EB7DA200421995 /* libHatena.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHatena.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A25903514CD4E8000FBA124 /* NSMutableDictionary+NSNullsToEmptyStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NSNullsToEmptyStrings.h"; sourceTree = "<group>"; };
@@ -762,10 +503,7 @@
 		7A3A0D90170CC94B00A0B717 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7A3C61ED147520B700C47D14 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		7A46FCE4171DF2DB00CB8D64 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
-		7A49DBC316BC193E004B7E78 /* libReadability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReadability.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4CAA161577BEF90010E6B3 /* SHKFormFieldCell_PrivateProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldCell_PrivateProperties.h; sourceTree = "<group>"; };
-		7A4E465A173E2B2900CCEE80 /* libPocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A4E4663173E2C2500CCEE80 /* libPocket SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPocket SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A56BFBF1659173D00134F04 /* SHKiOSSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiOSSharer.h; sourceTree = "<group>"; };
 		7A56BFC01659173D00134F04 /* SHKiOSSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SHKiOSSharer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7A56BFD716591D5500134F04 /* SHKiOSSharer_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKiOSSharer_Protected.h; sourceTree = "<group>"; };
@@ -779,7 +517,6 @@
 		7A5C28D41896C23D00E47E62 /* SHKUploadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKUploadInfo.m; sourceTree = "<group>"; };
 		7A5C28DD189BA57100E47E62 /* SHKMBRoundProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKMBRoundProgressView.h; sourceTree = "<group>"; };
 		7A5C28DE189BA57100E47E62 /* SHKMBRoundProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKMBRoundProgressView.m; sourceTree = "<group>"; };
-		7A70B2AF191C7E950070C5FB /* libPinterest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinterest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A72AD04189FD9490039D762 /* SHKAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKAccountsViewController.h; sourceTree = "<group>"; };
 		7A72AD05189FD9490039D762 /* SHKAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKAccountsViewController.m; sourceTree = "<group>"; };
 		7A74C18616E8A64400CFDFC3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
@@ -870,7 +607,6 @@
 		7ABDD99617A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldLargeTextSettings.h; sourceTree = "<group>"; };
 		7ABDD99717A7FF6D00E4B014 /* SHKFormFieldLargeTextSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldLargeTextSettings.m; sourceTree = "<group>"; };
 		7ABF7EDF17857D86000D7EF1 /* SuppressPerformSelectorWarning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuppressPerformSelectorWarning.h; sourceTree = "<group>"; };
-		7AC2A3A016597F4C0089ABE8 /* libSina Weibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSina Weibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACABC77188FDD6B00EBFDB1 /* SHKSharer_protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSharer_protected.h; sourceTree = "<group>"; };
 		7ACD3B05184DE7CE0096CEA5 /* testXMLAttributes3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testXMLAttributes3.xml; sourceTree = "<group>"; };
 		7ACD3B07184DF0C40096CEA5 /* NSDictionary+Recursive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Recursive.h"; sourceTree = "<group>"; };
@@ -891,8 +627,6 @@
 		7AEAC536178DA3340032B0AA /* FormControllerCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormControllerCallback.h; sourceTree = "<group>"; };
 		7AECF318171D5165000722FA /* SHKYouTube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SHKYouTube.h; path = YouTube/SHKYouTube.h; sourceTree = "<group>"; };
 		7AECF319171D5165000722FA /* SHKYouTube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SHKYouTube.m; path = YouTube/SHKYouTube.m; sourceTree = "<group>"; };
-		7AECF322171D5194000722FA /* libYouTube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYouTube.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AECF32C171D51C3000722FA /* libYouTube SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libYouTube SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AECF32F171D529D000722FA /* GTLQueryYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLQueryYouTube.h; path = "Submodules/google-api-objectivec/Source/Services/YouTube/Generated/GTLQueryYouTube.h"; sourceTree = SOURCE_ROOT; };
 		7AECF330171D529D000722FA /* GTLQueryYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLQueryYouTube.m; path = "Submodules/google-api-objectivec/Source/Services/YouTube/Generated/GTLQueryYouTube.m"; sourceTree = SOURCE_ROOT; };
 		7AECF331171D529D000722FA /* GTLServiceYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLServiceYouTube.h; path = "Submodules/google-api-objectivec/Source/Services/YouTube/Generated/GTLServiceYouTube.h"; sourceTree = SOURCE_ROOT; };
@@ -1005,7 +739,6 @@
 		7AEEDC8D18508E3600AD7E69 /* NSString+LinkedIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LinkedIn.m"; sourceTree = "<group>"; };
 		7AF701F518BCCCF400438CE2 /* SHKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSession.h; sourceTree = "<group>"; };
 		7AF701F618BCCCF400438CE2 /* SHKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSession.m; sourceTree = "<group>"; };
-		949BCB8C172A993000D706D4 /* libBuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBuffer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3B1DDC161292A100036C82 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		AA3B1DDD161292A100036C82 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		AA3B1DE41612938F00036C82 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -1022,20 +755,9 @@
 		AABBECE4162F07B4009D46E4 /* libOpen in Safari.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOpen in Safari.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABBECED162F07DF009D46E4 /* libSave to Album.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSave to Album.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABBECF6162F080F009D46E4 /* libText Message.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libText Message.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBECFF162F0835009D46E4 /* libKippt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKippt.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED08162F0858009D46E4 /* libDelicious.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDelicious.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED11162F087F009D46E4 /* libDiigo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDiigo.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED1B162F08A3009D46E4 /* libVKontakte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVKontakte.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED24162F08E6009D46E4 /* libEvernote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEvernote.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABBED37162F0B65009D46E4 /* libFacebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFacebook.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED46162F0B86009D46E4 /* libFoursquareV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoursquareV2.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED50162F0BA7009D46E4 /* libFlickr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlickr.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED62162F0BE8009D46E4 /* libInstapaper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInstapaper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABBED6B162F0C03009D46E4 /* libLinkedIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkedIn.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED74162F0C1A009D46E4 /* libPinboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPinboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBED86162F0C4D009D46E4 /* libTumblr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTumblr.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF54548160BB0F200A93975 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		AC2195F318EA885C003DF6BD /* libOneNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOneNote.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA465F1D14CC3C5A00B52394 /* SHKPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKPrint.h; sourceTree = "<group>"; };
 		BA465F1E14CC3C5A00B52394 /* SHKPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKPrint.m; sourceTree = "<group>"; };
 		C0AD00F2142B7B6D000862D9 /* SHKLinkedIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKLinkedIn.h; sourceTree = "<group>"; };
@@ -1058,20 +780,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4503EBBB169104470057294C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4932D60618DCBD840075FEE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A0F9240156BA2A0009CB40A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1080,13 +788,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7A16F372161340DD0019645D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A16F3B616134A890019645D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1107,13 +808,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1AFCD6160E127B0086B98A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A1AFD2E160E14340086B98A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1125,35 +819,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A49DBBE16BC193E004B7E78 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E4655173E2B2900CCEE80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E465E173E2C2500CCEE80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A70B2A8191C7E950070C5FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A70B2AA191C7E950070C5FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1181,47 +846,25 @@
 				C4B1545B192E08050080EBE3 /* libReadingList.a in Frameworks */,
 				C4823E32192936570099673A /* libOpen in 1Password.a in Frameworks */,
 				C4823E20192933070099673A /* libOpen in Chrome.a in Frameworks */,
-				7A70B2ED191C91390070C5FB /* libPinterest.a in Frameworks */,
 				7AB8A5C719250A7D00EC73A2 /* libSDWebImage.a in Frameworks */,
-				4979F30E18DCE9B7000F1733 /* libImgur.a in Frameworks */,
-				ACFC8BDA18EA8D6B008D72E9 /* libOneNote.a in Frameworks */,
 				7ADB644518C5C0FA00B5AF7F /* libPKMultipartInputStream.a in Frameworks */,
-				7AA2E9F91743E5B200B17434 /* libPocket SDK.a in Frameworks */,
-				7AA2E9FA1743E5B200B17434 /* libPocket.a in Frameworks */,
-				9492063917302B4C00DF9530 /* libKippt.a in Frameworks */,
-				7AECF40F171D52DF000722FA /* libYouTube.a in Frameworks */,
-				7AECF40E171D52DB000722FA /* libYouTube SDK.a in Frameworks */,
 				DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */,
 				7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */,
 				7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */,
-				456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */,
-				7A49DBC716BC19BD004B7E78 /* libReadability.a in Frameworks */,
 				7AC28F0B165A21C2006D7441 /* libCopy.a in Frameworks */,
-				7AC28F0C165A21C2006D7441 /* libDelicious.a in Frameworks */,
-				7AC28F0D165A21C2006D7441 /* libDiigo.a in Frameworks */,
 				7AC28F0E165A21C2006D7441 /* libEmail.a in Frameworks */,
-				7AC28F0F165A21C2006D7441 /* libEvernote SDK.a in Frameworks */,
-				7AC28F10165A21C2006D7441 /* libEvernote.a in Frameworks */,
 				7AC28F11165A21C2006D7441 /* libFacebook.a in Frameworks */,
-				7AC28F13165A21C2006D7441 /* libFlickr.a in Frameworks */,
-				7AC28F14165A21C2006D7441 /* libFoursquareV2.a in Frameworks */,
-				7AC28F16165A21C2006D7441 /* libInstagram.a in Frameworks */,
-				7AC28F17165A21C2006D7441 /* libInstapaper.a in Frameworks */,
 				7AC28F1A165A21C2006D7441 /* libLinkedIn.a in Frameworks */,
 				7AC28F1B165A21C2006D7441 /* libLogout.a in Frameworks */,
 				7AC28F1C165A21C2006D7441 /* libOAuth.a in Frameworks */,
 				7AC28F1D165A21C2006D7441 /* libOpen in Safari.a in Frameworks */,
-				7AC28F1E165A21C2006D7441 /* libPinboard.a in Frameworks */,
 				7AC28F1F165A21C2006D7441 /* libPrint.a in Frameworks */,
 				7AC28F20165A21C2006D7441 /* libReachability.a in Frameworks */,
 				7AC28F22165A21C2006D7441 /* libSave to Album.a in Frameworks */,
 				7AC28F23165A21C2006D7441 /* libShareKitCore.a in Frameworks */,
-				7AC28F24165A21C2006D7441 /* libSina Weibo.a in Frameworks */,
 				7AC28F25165A21C2006D7441 /* libSSKeyChain.a in Frameworks */,
 				7AC28F26165A21C2006D7441 /* libText Message.a in Frameworks */,
-				7AC28F27165A21C2006D7441 /* libTumblr.a in Frameworks */,
 				7AC28F28165A21C2006D7441 /* libTwitter.a in Frameworks */,
-				7AC28F29165A21C2006D7441 /* libVKontakte.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,35 +882,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AC2A39316597F4C0089ABE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7ADB643218C5BF3B00B5AF7F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF31D171D5194000722FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF327171D51C3000722FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		949BCB87172A993000D706D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1323,63 +938,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABBECFA162F0835009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED03162F0858009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED0C162F087F009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED16162F08A3009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED1F162F08E6009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AABBED2A162F0B65009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED41162F0B86009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED4A162F0BA7009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED5D162F0BE8009D46E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1390,28 +949,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED6F162F0C1A009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED81162F0C4D009D46E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2195F018EA885C003DF6BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC2195F418EA885C003DF6BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1463,10 +1000,8 @@
 				7A0F9246156BA2A0009CB40A /* libShareKitCore.a */,
 				7A1AFCC0160E11F90086B98A /* libSSKeyChain.a */,
 				7A1AFCD1160E123C0086B98A /* libReachability.a */,
-				7A1AFCE2160E127B0086B98A /* libEvernote SDK.a */,
 				7A1AFD3A160E14340086B98A /* libTwitter.a */,
 				7A16F37E161340DD0019645D /* libOAuth.a */,
-				7A16F3C216134A890019645D /* libInstagram.a */,
 				AABBECBE162F063F009D46E4 /* libPrint.a */,
 				AABBECC9162F0719009D46E4 /* libLogout.a */,
 				AABBECD2162F0756009D46E4 /* libCopy.a */,
@@ -1474,34 +1009,13 @@
 				AABBECE4162F07B4009D46E4 /* libOpen in Safari.a */,
 				AABBECED162F07DF009D46E4 /* libSave to Album.a */,
 				AABBECF6162F080F009D46E4 /* libText Message.a */,
-				AABBECFF162F0835009D46E4 /* libKippt.a */,
-				AABBED08162F0858009D46E4 /* libDelicious.a */,
-				AABBED11162F087F009D46E4 /* libDiigo.a */,
-				AABBED1B162F08A3009D46E4 /* libVKontakte.a */,
-				AABBED24162F08E6009D46E4 /* libEvernote.a */,
 				AABBED37162F0B65009D46E4 /* libFacebook.a */,
-				AABBED46162F0B86009D46E4 /* libFoursquareV2.a */,
-				AABBED50162F0BA7009D46E4 /* libFlickr.a */,
-				AABBED62162F0BE8009D46E4 /* libInstapaper.a */,
 				AABBED6B162F0C03009D46E4 /* libLinkedIn.a */,
-				AABBED74162F0C1A009D46E4 /* libPinboard.a */,
-				AABBED86162F0C4D009D46E4 /* libTumblr.a */,
-				7AC2A3A016597F4C0089ABE8 /* libSina Weibo.a */,
-				4503EBC0169104470057294C /* libGoogle Plus.a */,
-				7A49DBC316BC193E004B7E78 /* libReadability.a */,
 				7A203D0A16EB7DA200421995 /* libHatena.a */,
 				7AAE8CA516EB960500429C51 /* libPlurk.a */,
 				DE334C2116F3339300FF692B /* libDropbox.a */,
-				7AECF322171D5194000722FA /* libYouTube.a */,
-				7AECF32C171D51C3000722FA /* libYouTube SDK.a */,
-				949BCB8C172A993000D706D4 /* libBuffer.a */,
-				7A4E465A173E2B2900CCEE80 /* libPocket.a */,
-				7A4E4663173E2C2500CCEE80 /* libPocket SDK.a */,
 				7A8C03BE1848CDEE008E4C0A /* Static Library Tests.xctest */,
 				7ADB643918C5BF3B00B5AF7F /* libPKMultipartInputStream.a */,
-				4932D60E18DCBD840075FEE8 /* libImgur.a */,
-				AC2195F318EA885C003DF6BD /* libOneNote.a */,
-				7A70B2AF191C7E950070C5FB /* libPinterest.a */,
 				7AB8A568192505B200EC73A2 /* libSDWebImage.a */,
 				C4823E1B192932780099673A /* libOpen in Chrome.a */,
 				C4823E2E192936150099673A /* libOpen in 1Password.a */,
@@ -2261,21 +1775,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4503EBBC169104470057294C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				456BADAB169107D1005B3077 /* SHKGooglePlus.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4932D60818DCBD840075FEE8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A0F9241156BA2A0009CB40A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2313,13 +1812,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A16F3B716134A890019645D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A1AFCB5160E11F90086B98A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2336,13 +1828,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1AFCD7160E127B0086B98A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A1AFD2F160E14340086B98A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2352,27 +1837,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7A203D0616EB7DA200421995 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A49DBBF16BC193E004B7E78 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E4656173E2B2900CCEE80 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E465F173E2C2500CCEE80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2418,93 +1882,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AC2A39416597F4C0089ABE8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7ADB643318C5BF3B00B5AF7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7ADB644318C5C05800B5AF7F /* PKMultipartInputStream.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF31E171D5194000722FA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF328171D51C3000722FA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AECF39B171D529D000722FA /* GTLQueryYouTube.h in Headers */,
-				7AECF39D171D529D000722FA /* GTLServiceYouTube.h in Headers */,
-				7AECF3A0171D529D000722FA /* GTLYouTube.h in Headers */,
-				7AECF3A1171D529D000722FA /* GTLYouTubeAccessPolicy.h in Headers */,
-				7AECF3A3171D529D000722FA /* GTLYouTubeActivity.h in Headers */,
-				7AECF3A5171D529D000722FA /* GTLYouTubeActivityContentDetails.h in Headers */,
-				7AECF3A7171D529D000722FA /* GTLYouTubeActivityListResponse.h in Headers */,
-				7AECF3A9171D529D000722FA /* GTLYouTubeActivitySnippet.h in Headers */,
-				7AECF3AB171D529D000722FA /* GTLYouTubeChannel.h in Headers */,
-				7AECF3AD171D529D000722FA /* GTLYouTubeChannelContentDetails.h in Headers */,
-				7AECF3AF171D529D000722FA /* GTLYouTubeChannelListResponse.h in Headers */,
-				7AECF3B1171D529D000722FA /* GTLYouTubeChannelSnippet.h in Headers */,
-				7AECF3B3171D529D000722FA /* GTLYouTubeChannelStatistics.h in Headers */,
-				7AECF3B5171D529D000722FA /* GTLYouTubeChannelStatus.h in Headers */,
-				7AECF3B7171D529D000722FA /* GTLYouTubeChannelTopicDetails.h in Headers */,
-				7AECF3B9171D529D000722FA /* GTLYouTubeConstants.h in Headers */,
-				7AECF3BB171D529D000722FA /* GTLYouTubeGeoPoint.h in Headers */,
-				7AECF3BD171D529D000722FA /* GTLYouTubeGuideCategory.h in Headers */,
-				7AECF3BF171D529D000722FA /* GTLYouTubeGuideCategoryListResponse.h in Headers */,
-				7AECF3C1171D529D000722FA /* GTLYouTubeGuideCategorySnippet.h in Headers */,
-				7AECF3C3171D529D000722FA /* GTLYouTubePageInfo.h in Headers */,
-				7AECF3C5171D529D000722FA /* GTLYouTubePlaylist.h in Headers */,
-				7AECF3C7171D529D000722FA /* GTLYouTubePlaylistContentDetails.h in Headers */,
-				7AECF3C9171D529D000722FA /* GTLYouTubePlaylistItem.h in Headers */,
-				7AECF3CB171D529D000722FA /* GTLYouTubePlaylistItemContentDetails.h in Headers */,
-				7AECF3CD171D529D000722FA /* GTLYouTubePlaylistItemListResponse.h in Headers */,
-				7AECF3CF171D529D000722FA /* GTLYouTubePlaylistItemSnippet.h in Headers */,
-				7AECF3D1171D529D000722FA /* GTLYouTubePlaylistListResponse.h in Headers */,
-				7AECF3D3171D529D000722FA /* GTLYouTubePlaylistPlayer.h in Headers */,
-				7AECF3D5171D529D000722FA /* GTLYouTubePlaylistSnippet.h in Headers */,
-				7AECF3D7171D529D000722FA /* GTLYouTubePlaylistStatus.h in Headers */,
-				7AECF3D9171D529D000722FA /* GTLYouTubeResourceId.h in Headers */,
-				7AECF3DB171D529D000722FA /* GTLYouTubeSearchListResponse.h in Headers */,
-				7AECF3DD171D529D000722FA /* GTLYouTubeSearchResult.h in Headers */,
-				7AECF3DF171D529D000722FA /* GTLYouTubeSearchResultSnippet.h in Headers */,
-				7AECF3E1171D529D000722FA /* GTLYouTubeSubscription.h in Headers */,
-				7AECF3E3171D529D000722FA /* GTLYouTubeSubscriptionContentDetails.h in Headers */,
-				7AECF3E5171D529D000722FA /* GTLYouTubeSubscriptionListResponse.h in Headers */,
-				7AECF3E7171D529D000722FA /* GTLYouTubeSubscriptionSnippet.h in Headers */,
-				7AECF3E9171D529D000722FA /* GTLYouTubeThumbnail.h in Headers */,
-				7AECF3EB171D529D000722FA /* GTLYouTubeVideo.h in Headers */,
-				7AECF3ED171D529D000722FA /* GTLYouTubeVideoCategory.h in Headers */,
-				7AECF3EF171D529D000722FA /* GTLYouTubeVideoCategoryListResponse.h in Headers */,
-				7AECF3F1171D529D000722FA /* GTLYouTubeVideoCategorySnippet.h in Headers */,
-				7AECF3F3171D529D000722FA /* GTLYouTubeVideoContentDetails.h in Headers */,
-				7AECF3F5171D529D000722FA /* GTLYouTubeVideoContentDetailsRegionRestriction.h in Headers */,
-				7AECF3F7171D529D000722FA /* GTLYouTubeVideoListResponse.h in Headers */,
-				7AECF3F9171D529D000722FA /* GTLYouTubeVideoMonetizationDetails.h in Headers */,
-				7AECF3FB171D529D000722FA /* GTLYouTubeVideoPlayer.h in Headers */,
-				7AECF3FD171D529D000722FA /* GTLYouTubeVideoRecordingDetails.h in Headers */,
-				7AECF3FF171D529D000722FA /* GTLYouTubeVideoSnippet.h in Headers */,
-				7AECF401171D529D000722FA /* GTLYouTubeVideoStatistics.h in Headers */,
-				7AECF403171D529D000722FA /* GTLYouTubeVideoStatus.h in Headers */,
-				7AECF405171D529D000722FA /* GTLYouTubeVideoTopicDetails.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		949BCB88172A993000D706D4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2557,41 +1939,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABBECFB162F0835009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED04162F0858009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED0D162F087F009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED17162F08A3009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED20162F08E6009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AABBED2C162F0B65009D46E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2600,46 +1947,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABBED42162F0B86009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED4B162F0BA7009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED5E162F0BE8009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AABBED67162F0C03009D46E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7AEEDC8E18508E3600AD7E69 /* NSString+LinkedIn.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED70162F0C1A009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED82162F0C4D009D46E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2668,40 +1980,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4503EBB8169104470057294C /* Google Plus */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4503EBBD169104470057294C /* Build configuration list for PBXNativeTarget "Google Plus" */;
-			buildPhases = (
-				4503EBB9169104470057294C /* Sources */,
-				4503EBBB169104470057294C /* Frameworks */,
-				4503EBBC169104470057294C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Google Plus";
-			productName = ShareKitLibrary;
-			productReference = 4503EBC0169104470057294C /* libGoogle Plus.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4932D60318DCBD840075FEE8 /* Imgur */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4932D60B18DCBD840075FEE8 /* Build configuration list for PBXNativeTarget "Imgur" */;
-			buildPhases = (
-				4932D60418DCBD840075FEE8 /* Sources */,
-				4932D60618DCBD840075FEE8 /* Frameworks */,
-				4932D60818DCBD840075FEE8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Imgur;
-			productName = ShareKitLibrary;
-			productReference = 4932D60E18DCBD840075FEE8 /* libImgur.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		7A0F91D1156BA2A0009CB40A /* Static Library Core */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A0F9243156BA2A0009CB40A /* Build configuration list for PBXNativeTarget "Static Library Core" */;
@@ -2734,23 +2012,6 @@
 			name = OAuth;
 			productName = ShareKitLibrary;
 			productReference = 7A16F37E161340DD0019645D /* libOAuth.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A16F3B316134A890019645D /* Instagram */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A16F3BF16134A890019645D /* Build configuration list for PBXNativeTarget "Instagram" */;
-			buildPhases = (
-				7A16F3B416134A890019645D /* Sources */,
-				7A16F3B616134A890019645D /* Frameworks */,
-				7A16F3B716134A890019645D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Instagram;
-			productName = ShareKitLibrary;
-			productReference = 7A16F3C216134A890019645D /* libInstagram.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7A1AFCB1160E11F90086B98A /* SSKeyChain */ = {
@@ -2787,23 +2048,6 @@
 			productReference = 7A1AFCD1160E123C0086B98A /* libReachability.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7A1AFCD3160E127B0086B98A /* Evernote SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1AFCDF160E127B0086B98A /* Build configuration list for PBXNativeTarget "Evernote SDK" */;
-			buildPhases = (
-				7A1AFCD4160E127B0086B98A /* Sources */,
-				7A1AFCD6160E127B0086B98A /* Frameworks */,
-				7A1AFCD7160E127B0086B98A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Evernote SDK";
-			productName = ShareKitLibrary;
-			productReference = 7A1AFCE2160E127B0086B98A /* libEvernote SDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		7A1AFD2B160E14340086B98A /* Twitter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1AFD37160E14340086B98A /* Build configuration list for PBXNativeTarget "Twitter" */;
@@ -2836,74 +2080,6 @@
 			name = Hatena;
 			productName = ShareKitLibrary;
 			productReference = 7A203D0A16EB7DA200421995 /* libHatena.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A49DBBB16BC193E004B7E78 /* Readability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A49DBC016BC193E004B7E78 /* Build configuration list for PBXNativeTarget "Readability" */;
-			buildPhases = (
-				7A49DBBC16BC193E004B7E78 /* Sources */,
-				7A49DBBE16BC193E004B7E78 /* Frameworks */,
-				7A49DBBF16BC193E004B7E78 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Readability;
-			productName = ShareKitLibrary;
-			productReference = 7A49DBC316BC193E004B7E78 /* libReadability.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A4E4652173E2B2900CCEE80 /* Pocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A4E4657173E2B2900CCEE80 /* Build configuration list for PBXNativeTarget "Pocket" */;
-			buildPhases = (
-				7A4E4653173E2B2900CCEE80 /* Sources */,
-				7A4E4655173E2B2900CCEE80 /* Frameworks */,
-				7A4E4656173E2B2900CCEE80 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Pocket;
-			productName = ShareKitLibrary;
-			productReference = 7A4E465A173E2B2900CCEE80 /* libPocket.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A4E465B173E2C2500CCEE80 /* Pocket SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A4E4660173E2C2500CCEE80 /* Build configuration list for PBXNativeTarget "Pocket SDK" */;
-			buildPhases = (
-				7A4E465C173E2C2500CCEE80 /* Sources */,
-				7A4E465E173E2C2500CCEE80 /* Frameworks */,
-				7A4E465F173E2C2500CCEE80 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pocket SDK";
-			productName = ShareKitLibrary;
-			productReference = 7A4E4663173E2C2500CCEE80 /* libPocket SDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A70B2A4191C7E950070C5FB /* Pinterest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A70B2AC191C7E950070C5FB /* Build configuration list for PBXNativeTarget "Pinterest" */;
-			buildPhases = (
-				7A70B2A5191C7E950070C5FB /* Sources */,
-				7A70B2A8191C7E950070C5FB /* Frameworks */,
-				7A70B2AB191C7E950070C5FB /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Pinterest;
-			productName = OneNote;
-			productReference = 7A70B2AF191C7E950070C5FB /* libPinterest.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7A8C03BD1848CDEE008E4C0A /* Static Library Tests */ = {
@@ -2955,19 +2131,11 @@
 				C4B1545D192E08100080EBE3 /* PBXTargetDependency */,
 				C4823E311929364D0099673A /* PBXTargetDependency */,
 				C4823E1F192932D30099673A /* PBXTargetDependency */,
-				7A70B2EC191C912C0070C5FB /* PBXTargetDependency */,
 				7AB8A5C619250A7100EC73A2 /* PBXTargetDependency */,
-				4979F30D18DCE75B000F1733 /* PBXTargetDependency */,
 				7ADB644018C5BFF000B5AF7F /* PBXTargetDependency */,
-				7A4E4667173E2C5300CCEE80 /* PBXTargetDependency */,
-				7A4E4665173E2C4F00CCEE80 /* PBXTargetDependency */,
-				9492063217302B0700DF9530 /* PBXTargetDependency */,
-				7AECF40D171D52D4000722FA /* PBXTargetDependency */,
-				7AECF40B171D52D0000722FA /* PBXTargetDependency */,
 				DE334C3016F333B000FF692B /* PBXTargetDependency */,
 				7AAE8CA816EB964900429C51 /* PBXTargetDependency */,
 				7A203D0E16EB7F5100421995 /* PBXTargetDependency */,
-				7A49DBC616BC199F004B7E78 /* PBXTargetDependency */,
 				7AC28ECC165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28ED0165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28ED2165A1EE7006D7441 /* PBXTargetDependency */,
@@ -2979,23 +2147,9 @@
 				7AC28EDE165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28EE0165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28EE2165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EE6165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EEA165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EEC165A1EE7006D7441 /* PBXTargetDependency */,
-				ACFC8BD918EA8D29008D72E9 /* PBXTargetDependency */,
-				7AC28EEE165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EF0165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28EF2165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EF4165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EF6165A1EE7006D7441 /* PBXTargetDependency */,
-				456BADAF16910966005B3077 /* PBXTargetDependency */,
-				7AC28EFC165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28EFE165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28F00165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28F02165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28F06165A1EE7006D7441 /* PBXTargetDependency */,
 				7AC28F08165A1EE7006D7441 /* PBXTargetDependency */,
-				7AC28F0A165A1EE7006D7441 /* PBXTargetDependency */,
 			);
 			name = "Static Library";
 			productName = ShareKitLibrary;
@@ -3036,23 +2190,6 @@
 			productReference = 7AB8A568192505B200EC73A2 /* libSDWebImage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7AC2A38E16597F4C0089ABE8 /* Sina Weibo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC2A39D16597F4C0089ABE8 /* Build configuration list for PBXNativeTarget "Sina Weibo" */;
-			buildPhases = (
-				7AC2A38F16597F4C0089ABE8 /* Sources */,
-				7AC2A39316597F4C0089ABE8 /* Frameworks */,
-				7AC2A39416597F4C0089ABE8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Sina Weibo";
-			productName = ShareKitLibrary;
-			productReference = 7AC2A3A016597F4C0089ABE8 /* libSina Weibo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		7ADB642E18C5BF3B00B5AF7F /* PKMultipartInputStream */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ADB643618C5BF3B00B5AF7F /* Build configuration list for PBXNativeTarget "PKMultipartInputStream" */;
@@ -3068,57 +2205,6 @@
 			name = PKMultipartInputStream;
 			productName = ShareKitLibrary;
 			productReference = 7ADB643918C5BF3B00B5AF7F /* libPKMultipartInputStream.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7AECF31A171D5194000722FA /* YouTube */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AECF31F171D5194000722FA /* Build configuration list for PBXNativeTarget "YouTube" */;
-			buildPhases = (
-				7AECF31B171D5194000722FA /* Sources */,
-				7AECF31D171D5194000722FA /* Frameworks */,
-				7AECF31E171D5194000722FA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YouTube;
-			productName = ShareKitLibrary;
-			productReference = 7AECF322171D5194000722FA /* libYouTube.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7AECF324171D51C3000722FA /* YouTube SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AECF329171D51C3000722FA /* Build configuration list for PBXNativeTarget "YouTube SDK" */;
-			buildPhases = (
-				7AECF325171D51C3000722FA /* Sources */,
-				7AECF327171D51C3000722FA /* Frameworks */,
-				7AECF328171D51C3000722FA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YouTube SDK";
-			productName = ShareKitLibrary;
-			productReference = 7AECF32C171D51C3000722FA /* libYouTube SDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		949BCB84172A993000D706D4 /* Buffer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 949BCB89172A993000D706D4 /* Build configuration list for PBXNativeTarget "Buffer" */;
-			buildPhases = (
-				949BCB85172A993000D706D4 /* Sources */,
-				949BCB87172A993000D706D4 /* Frameworks */,
-				949BCB88172A993000D706D4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Buffer;
-			productName = ShareKitLibrary;
-			productReference = 949BCB8C172A993000D706D4 /* libBuffer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AABBECB6162F063F009D46E4 /* Print */ = {
@@ -3240,91 +2326,6 @@
 			productReference = AABBECF6162F080F009D46E4 /* libText Message.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AABBECF7162F0835009D46E4 /* Kippt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBECFC162F0835009D46E4 /* Build configuration list for PBXNativeTarget "Kippt" */;
-			buildPhases = (
-				AABBECF8162F0835009D46E4 /* Sources */,
-				AABBECFA162F0835009D46E4 /* Frameworks */,
-				AABBECFB162F0835009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Kippt;
-			productName = ShareKitLibrary;
-			productReference = AABBECFF162F0835009D46E4 /* libKippt.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED00162F0858009D46E4 /* Delicious */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED05162F0858009D46E4 /* Build configuration list for PBXNativeTarget "Delicious" */;
-			buildPhases = (
-				AABBED01162F0858009D46E4 /* Sources */,
-				AABBED03162F0858009D46E4 /* Frameworks */,
-				AABBED04162F0858009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Delicious;
-			productName = ShareKitLibrary;
-			productReference = AABBED08162F0858009D46E4 /* libDelicious.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED09162F087F009D46E4 /* Diigo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED0E162F087F009D46E4 /* Build configuration list for PBXNativeTarget "Diigo" */;
-			buildPhases = (
-				AABBED0A162F087F009D46E4 /* Sources */,
-				AABBED0C162F087F009D46E4 /* Frameworks */,
-				AABBED0D162F087F009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Diigo;
-			productName = ShareKitLibrary;
-			productReference = AABBED11162F087F009D46E4 /* libDiigo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED12162F08A3009D46E4 /* VKontakte */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED18162F08A3009D46E4 /* Build configuration list for PBXNativeTarget "VKontakte" */;
-			buildPhases = (
-				AABBED13162F08A3009D46E4 /* Sources */,
-				AABBED16162F08A3009D46E4 /* Frameworks */,
-				AABBED17162F08A3009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VKontakte;
-			productName = ShareKitLibrary;
-			productReference = AABBED1B162F08A3009D46E4 /* libVKontakte.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED1C162F08E6009D46E4 /* Evernote */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED21162F08E6009D46E4 /* Build configuration list for PBXNativeTarget "Evernote" */;
-			buildPhases = (
-				AABBED1D162F08E6009D46E4 /* Sources */,
-				AABBED1F162F08E6009D46E4 /* Frameworks */,
-				AABBED20162F08E6009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Evernote;
-			productName = ShareKitLibrary;
-			productReference = AABBED24162F08E6009D46E4 /* libEvernote.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		AABBED25162F0B65009D46E4 /* Facebook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABBED34162F0B65009D46E4 /* Build configuration list for PBXNativeTarget "Facebook" */;
@@ -3342,57 +2343,6 @@
 			productReference = AABBED37162F0B65009D46E4 /* libFacebook.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AABBED38162F0B86009D46E4 /* FoursquareV2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED43162F0B86009D46E4 /* Build configuration list for PBXNativeTarget "FoursquareV2" */;
-			buildPhases = (
-				AABBED39162F0B86009D46E4 /* Sources */,
-				AABBED41162F0B86009D46E4 /* Frameworks */,
-				AABBED42162F0B86009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FoursquareV2;
-			productName = ShareKitLibrary;
-			productReference = AABBED46162F0B86009D46E4 /* libFoursquareV2.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED47162F0BA7009D46E4 /* Flickr */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED4D162F0BA7009D46E4 /* Build configuration list for PBXNativeTarget "Flickr" */;
-			buildPhases = (
-				AABBED48162F0BA7009D46E4 /* Sources */,
-				AABBED4A162F0BA7009D46E4 /* Frameworks */,
-				AABBED4B162F0BA7009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Flickr;
-			productName = ShareKitLibrary;
-			productReference = AABBED50162F0BA7009D46E4 /* libFlickr.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED5A162F0BE8009D46E4 /* Instapaper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED5F162F0BE8009D46E4 /* Build configuration list for PBXNativeTarget "Instapaper" */;
-			buildPhases = (
-				AABBED5B162F0BE8009D46E4 /* Sources */,
-				AABBED5D162F0BE8009D46E4 /* Frameworks */,
-				AABBED5E162F0BE8009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Instapaper;
-			productName = ShareKitLibrary;
-			productReference = AABBED62162F0BE8009D46E4 /* libInstapaper.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		AABBED63162F0C03009D46E4 /* LinkedIn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABBED68162F0C03009D46E4 /* Build configuration list for PBXNativeTarget "LinkedIn" */;
@@ -3408,57 +2358,6 @@
 			name = LinkedIn;
 			productName = ShareKitLibrary;
 			productReference = AABBED6B162F0C03009D46E4 /* libLinkedIn.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED6C162F0C1A009D46E4 /* Pinboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED71162F0C1A009D46E4 /* Build configuration list for PBXNativeTarget "Pinboard" */;
-			buildPhases = (
-				AABBED6D162F0C1A009D46E4 /* Sources */,
-				AABBED6F162F0C1A009D46E4 /* Frameworks */,
-				AABBED70162F0C1A009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Pinboard;
-			productName = ShareKitLibrary;
-			productReference = AABBED74162F0C1A009D46E4 /* libPinboard.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AABBED7E162F0C4D009D46E4 /* Tumbl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AABBED83162F0C4D009D46E4 /* Build configuration list for PBXNativeTarget "Tumbl" */;
-			buildPhases = (
-				AABBED7F162F0C4D009D46E4 /* Sources */,
-				AABBED81162F0C4D009D46E4 /* Frameworks */,
-				AABBED82162F0C4D009D46E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Tumbl;
-			productName = ShareKitLibrary;
-			productReference = AABBED86162F0C4D009D46E4 /* libTumblr.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AC2195F218EA885C003DF6BD /* OneNote */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC21961318EA885D003DF6BD /* Build configuration list for PBXNativeTarget "OneNote" */;
-			buildPhases = (
-				AC2195EF18EA885C003DF6BD /* Sources */,
-				AC2195F018EA885C003DF6BD /* Frameworks */,
-				AC2195F118EA885C003DF6BD /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OneNote;
-			productName = OneNote;
-			productReference = AC2195F318EA885C003DF6BD /* libOneNote.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C4823E13192932780099673A /* Open in Chrome */ = {
@@ -3591,37 +2490,14 @@
 				AABBECB6162F063F009D46E4 /* Print */,
 				AABBECE5162F07DF009D46E4 /* Save to Album */,
 				AABBECEE162F080F009D46E4 /* Text Message */,
-				AABBED00162F0858009D46E4 /* Delicious */,
-				AABBED09162F087F009D46E4 /* Diigo */,
-				AABBED1C162F08E6009D46E4 /* Evernote */,
-				7A1AFCD3160E127B0086B98A /* Evernote SDK */,
 				AABBED25162F0B65009D46E4 /* Facebook */,
-				AABBED38162F0B86009D46E4 /* FoursquareV2 */,
-				AABBED47162F0BA7009D46E4 /* Flickr */,
-				4503EBB8169104470057294C /* Google Plus */,
-				7A16F3B316134A890019645D /* Instagram */,
-				AABBED5A162F0BE8009D46E4 /* Instapaper */,
-				AABBECF7162F0835009D46E4 /* Kippt */,
 				AABBED63162F0C03009D46E4 /* LinkedIn */,
-				AABBED6C162F0C1A009D46E4 /* Pinboard */,
-				949BCB84172A993000D706D4 /* Buffer */,
-				7AC2A38E16597F4C0089ABE8 /* Sina Weibo */,
-				AABBED7E162F0C4D009D46E4 /* Tumbl */,
 				7A1AFD2B160E14340086B98A /* Twitter */,
-				AABBED12162F08A3009D46E4 /* VKontakte */,
-				7A49DBBB16BC193E004B7E78 /* Readability */,
 				7A203D0216EB7DA200421995 /* Hatena */,
 				7AAE8C9D16EB960500429C51 /* Plurk */,
 				DE334C2016F3339300FF692B /* Dropbox */,
-				7AECF31A171D5194000722FA /* YouTube */,
-				7AECF324171D51C3000722FA /* YouTube SDK */,
-				7A4E4652173E2B2900CCEE80 /* Pocket */,
-				7A4E465B173E2C2500CCEE80 /* Pocket SDK */,
 				7A8C03BD1848CDEE008E4C0A /* Static Library Tests */,
 				7ADB642E18C5BF3B00B5AF7F /* PKMultipartInputStream */,
-				4932D60318DCBD840075FEE8 /* Imgur */,
-				AC2195F218EA885C003DF6BD /* OneNote */,
-				7A70B2A4191C7E950070C5FB /* Pinterest */,
 				7AB8A55F192505B200EC73A2 /* SDWebImage */,
 				C4823E13192932780099673A /* Open in Chrome */,
 				C4823E26192936150099673A /* Open in 1Password */,
@@ -3661,21 +2537,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4503EBB9169104470057294C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4932D60418DCBD840075FEE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A0F91D2156BA2A0009CB40A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3748,13 +2609,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A16F3B416134A890019645D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A1AFCB2160E11F90086B98A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3772,13 +2626,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1AFCD4160E127B0086B98A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A1AFD2C160E14340086B98A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3790,34 +2637,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7A203D0316EB7DA200421995 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A49DBBC16BC193E004B7E78 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E4653173E2B2900CCEE80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A4E465C173E2C2500CCEE80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A70B2A5191C7E950070C5FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3877,41 +2696,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AC2A38F16597F4C0089ABE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7ADB642F18C5BF3B00B5AF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7ADB644418C5C05800B5AF7F /* PKMultipartInputStream.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF31B171D5194000722FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AECF323171D51BA000722FA /* SHKYouTube.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AECF325171D51C3000722FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AECF39F171D529D000722FA /* GTLYouTube_Sources.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		949BCB85172A993000D706D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3971,41 +2760,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABBECF8162F0835009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED01162F0858009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED0A162F087F009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED13162F08A3009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED1D162F08E6009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AABBED28162F0B65009D46E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4016,55 +2770,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABBED39162F0B86009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED48162F0BA7009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED5B162F0BE8009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AABBED64162F0C03009D46E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AABBED65162F0C03009D46E4 /* SHKLinkedIn.m in Sources */,
 				7AEEDC8F18508E3600AD7E69 /* NSString+LinkedIn.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED6D162F0C1A009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AABBED6E162F0C1A009D46E4 /* SHKPinboard.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AABBED7F162F0C4D009D46E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC2195EF18EA885C003DF6BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4102,40 +2813,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		456BADAF16910966005B3077 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4503EBB8169104470057294C /* Google Plus */;
-			targetProxy = 456BADAE16910966005B3077 /* PBXContainerItemProxy */;
-		};
-		4979F30D18DCE75B000F1733 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4932D60318DCBD840075FEE8 /* Imgur */;
-			targetProxy = 4979F30C18DCE75B000F1733 /* PBXContainerItemProxy */;
-		};
 		7A203D0E16EB7F5100421995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A203D0216EB7DA200421995 /* Hatena */;
 			targetProxy = 7A203D0D16EB7F5100421995 /* PBXContainerItemProxy */;
-		};
-		7A49DBC616BC199F004B7E78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A49DBBB16BC193E004B7E78 /* Readability */;
-			targetProxy = 7A49DBC516BC199F004B7E78 /* PBXContainerItemProxy */;
-		};
-		7A4E4665173E2C4F00CCEE80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A4E4652173E2B2900CCEE80 /* Pocket */;
-			targetProxy = 7A4E4664173E2C4F00CCEE80 /* PBXContainerItemProxy */;
-		};
-		7A4E4667173E2C5300CCEE80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A4E465B173E2C2500CCEE80 /* Pocket SDK */;
-			targetProxy = 7A4E4666173E2C5300CCEE80 /* PBXContainerItemProxy */;
-		};
-		7A70B2EC191C912C0070C5FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A70B2A4191C7E950070C5FB /* Pinterest */;
-			targetProxy = 7A70B2EB191C912C0070C5FB /* PBXContainerItemProxy */;
 		};
 		7A8C03CD1848CDEF008E4C0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4207,105 +2888,25 @@
 			target = AABBECEE162F080F009D46E4 /* Text Message */;
 			targetProxy = 7AC28EE1165A1EE7006D7441 /* PBXContainerItemProxy */;
 		};
-		7AC28EE6165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED00162F0858009D46E4 /* Delicious */;
-			targetProxy = 7AC28EE5165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EEA165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED09162F087F009D46E4 /* Diigo */;
-			targetProxy = 7AC28EE9165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EEC165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED12162F08A3009D46E4 /* VKontakte */;
-			targetProxy = 7AC28EEB165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EEE165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED1C162F08E6009D46E4 /* Evernote */;
-			targetProxy = 7AC28EED165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EF0165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A1AFCD3160E127B0086B98A /* Evernote SDK */;
-			targetProxy = 7AC28EEF165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
 		7AC28EF2165A1EE7006D7441 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AABBED25162F0B65009D46E4 /* Facebook */;
 			targetProxy = 7AC28EF1165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EF4165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED38162F0B86009D46E4 /* FoursquareV2 */;
-			targetProxy = 7AC28EF3165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EF6165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED47162F0BA7009D46E4 /* Flickr */;
-			targetProxy = 7AC28EF5165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EFC165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A16F3B316134A890019645D /* Instagram */;
-			targetProxy = 7AC28EFB165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28EFE165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED5A162F0BE8009D46E4 /* Instapaper */;
-			targetProxy = 7AC28EFD165A1EE7006D7441 /* PBXContainerItemProxy */;
 		};
 		7AC28F00165A1EE7006D7441 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AABBED63162F0C03009D46E4 /* LinkedIn */;
 			targetProxy = 7AC28EFF165A1EE7006D7441 /* PBXContainerItemProxy */;
 		};
-		7AC28F02165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED6C162F0C1A009D46E4 /* Pinboard */;
-			targetProxy = 7AC28F01165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
-		7AC28F06165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBED7E162F0C4D009D46E4 /* Tumbl */;
-			targetProxy = 7AC28F05165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
 		7AC28F08165A1EE7006D7441 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A1AFD2B160E14340086B98A /* Twitter */;
 			targetProxy = 7AC28F07165A1EE7006D7441 /* PBXContainerItemProxy */;
 		};
-		7AC28F0A165A1EE7006D7441 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AC2A38E16597F4C0089ABE8 /* Sina Weibo */;
-			targetProxy = 7AC28F09165A1EE7006D7441 /* PBXContainerItemProxy */;
-		};
 		7ADB644018C5BFF000B5AF7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7ADB642E18C5BF3B00B5AF7F /* PKMultipartInputStream */;
 			targetProxy = 7ADB643F18C5BFF000B5AF7F /* PBXContainerItemProxy */;
-		};
-		7AECF40B171D52D0000722FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AECF31A171D5194000722FA /* YouTube */;
-			targetProxy = 7AECF40A171D52D0000722FA /* PBXContainerItemProxy */;
-		};
-		7AECF40D171D52D4000722FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AECF324171D51C3000722FA /* YouTube SDK */;
-			targetProxy = 7AECF40C171D52D4000722FA /* PBXContainerItemProxy */;
-		};
-		9492063217302B0700DF9530 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AABBECF7162F0835009D46E4 /* Kippt */;
-			targetProxy = 9492063117302B0700DF9530 /* PBXContainerItemProxy */;
-		};
-		ACFC8BD918EA8D29008D72E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC2195F218EA885C003DF6BD /* OneNote */;
-			targetProxy = ACFC8BD818EA8D29008D72E9 /* PBXContainerItemProxy */;
 		};
 		C4823E1F192932D30099673A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4378,100 +2979,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4503EBBE169104470057294C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Google Plus";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/**";
-			};
-			name = Debug;
-		};
-		4503EBBF169104470057294C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Google Plus";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/**";
-			};
-			name = Release;
-		};
-		4932D60C18DCBD840075FEE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Imgur;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Debug;
-		};
-		4932D60D18DCBD840075FEE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Imgur;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Release;
-		};
 		7A0F9244156BA2A0009CB40A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4552,49 +3059,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = OAuth;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7A16F3C016134A890019645D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Instagram;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A16F3C116134A890019645D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Instagram;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -4683,59 +3147,6 @@
 			};
 			name = Release;
 		};
-		7A1AFCE0160E127B0086B98A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SDKROOT}/usr/include/libxml2",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Evernote SDK";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A1AFCE1160E127B0086B98A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SDKROOT}/usr/include/libxml2",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Evernote SDK";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		7A1AFD38160E14340086B98A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4818,219 +3229,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Hatena;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A49DBC116BC193E004B7E78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Readability;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A49DBC216BC193E004B7E78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Readability;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A4E4658173E2B2900CCEE80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pocket;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A4E4659173E2B2900CCEE80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pocket;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A4E4661173E2C2500CCEE80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Pocket SDK";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A4E4662173E2C2500CCEE80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Pocket SDK";
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7A70B2AD191C7E950070C5FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/OneNote.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/**",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pinterest;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7A70B2AE191C7E950070C5FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/OneNote.dst;
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/**",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pinterest;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -5308,49 +3506,6 @@
 			};
 			name = Release;
 		};
-		7AC2A39E16597F4C0089ABE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Sina Weibo";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7AC2A39F16597F4C0089ABE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Sina Weibo";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		7ADB643718C5BF3B00B5AF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5391,145 +3546,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = PKMultipartInputStream;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7AECF320171D5194000722FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = YouTube;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/** \"$(PROJECT_TEMP_DIR)/../UninstalledProducts/google-api-objectivec\"";
-			};
-			name = Debug;
-		};
-		7AECF321171D5194000722FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = YouTube;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/** \"$(PROJECT_TEMP_DIR)/../UninstalledProducts/google-api-objectivec\"";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7AECF32A171D51C3000722FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "YouTube SDK";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/** \"$(PROJECT_TEMP_DIR)/../UninstalledProducts/google-api-objectivec\"";
-			};
-			name = Debug;
-		};
-		7AECF32B171D51C3000722FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "YouTube SDK";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/google-api-objectivec\"/** \"$(PROJECT_TEMP_DIR)/../UninstalledProducts/google-api-objectivec\"";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		949BCB8A172A993000D706D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/buffer-ios-sdk\"/**";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Buffer;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/buffer-ios-sdk\"";
-			};
-			name = Debug;
-		};
-		949BCB8B172A993000D706D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				LIBRARY_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/buffer-ios-sdk\"/**";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Buffer;
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Submodules/buffer-ios-sdk\"";
 			};
 			name = Release;
 		};
@@ -5834,221 +3850,6 @@
 			};
 			name = Release;
 		};
-		AABBECFD162F0835009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Kippt;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBECFE162F0835009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Kippt;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED06162F0858009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Delicious;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED07162F0858009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Delicious;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED0F162F087F009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Diigo;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED10162F087F009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Diigo;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED19162F08A3009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = VKontakte;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED1A162F08A3009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = VKontakte;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED22162F08E6009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Evernote;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED23162F08E6009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Evernote;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		AABBED35162F0B65009D46E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6094,135 +3895,6 @@
 			};
 			name = Release;
 		};
-		AABBED44162F0B86009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = FoursquareV2;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED45162F0B86009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = FoursquareV2;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED4E162F0BA7009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Flickr;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED4F162F0BA7009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Flickr;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED60162F0BE8009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Instapaper;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED61162F0BE8009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Instapaper;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		AABBED69162F0C03009D46E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6263,174 +3935,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = LinkedIn;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED72162F0C1A009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/facebook-ios-sdk/\"";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pinboard;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED73162F0C1A009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/facebook-ios-sdk/\"";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Pinboard;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AABBED84162F0C4D009D46E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Tumblr;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AABBED85162F0C4D009D46E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/ShareKitLibrary.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_NAME = Tumblr;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AC21960F18EA885D003DF6BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/OneNote.dst;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AC21961018EA885D003DF6BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/OneNote.dst;
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -6657,24 +4161,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4503EBBD169104470057294C /* Build configuration list for PBXNativeTarget "Google Plus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4503EBBE169104470057294C /* Debug */,
-				4503EBBF169104470057294C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4932D60B18DCBD840075FEE8 /* Build configuration list for PBXNativeTarget "Imgur" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4932D60C18DCBD840075FEE8 /* Debug */,
-				4932D60D18DCBD840075FEE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7A0F9243156BA2A0009CB40A /* Build configuration list for PBXNativeTarget "Static Library Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6689,15 +4175,6 @@
 			buildConfigurations = (
 				7A16F37C161340DD0019645D /* Debug */,
 				7A16F37D161340DD0019645D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A16F3BF16134A890019645D /* Build configuration list for PBXNativeTarget "Instagram" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A16F3C016134A890019645D /* Debug */,
-				7A16F3C116134A890019645D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6720,15 +4197,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1AFCDF160E127B0086B98A /* Build configuration list for PBXNativeTarget "Evernote SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A1AFCE0160E127B0086B98A /* Debug */,
-				7A1AFCE1160E127B0086B98A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7A1AFD37160E14340086B98A /* Build configuration list for PBXNativeTarget "Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6743,42 +4211,6 @@
 			buildConfigurations = (
 				7A203D0816EB7DA200421995 /* Debug */,
 				7A203D0916EB7DA200421995 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A49DBC016BC193E004B7E78 /* Build configuration list for PBXNativeTarget "Readability" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A49DBC116BC193E004B7E78 /* Debug */,
-				7A49DBC216BC193E004B7E78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A4E4657173E2B2900CCEE80 /* Build configuration list for PBXNativeTarget "Pocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A4E4658173E2B2900CCEE80 /* Debug */,
-				7A4E4659173E2B2900CCEE80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A4E4660173E2C2500CCEE80 /* Build configuration list for PBXNativeTarget "Pocket SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A4E4661173E2C2500CCEE80 /* Debug */,
-				7A4E4662173E2C2500CCEE80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A70B2AC191C7E950070C5FB /* Build configuration list for PBXNativeTarget "Pinterest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A70B2AD191C7E950070C5FB /* Debug */,
-				7A70B2AE191C7E950070C5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6828,47 +4260,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC2A39D16597F4C0089ABE8 /* Build configuration list for PBXNativeTarget "Sina Weibo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AC2A39E16597F4C0089ABE8 /* Debug */,
-				7AC2A39F16597F4C0089ABE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7ADB643618C5BF3B00B5AF7F /* Build configuration list for PBXNativeTarget "PKMultipartInputStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ADB643718C5BF3B00B5AF7F /* Debug */,
 				7ADB643818C5BF3B00B5AF7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AECF31F171D5194000722FA /* Build configuration list for PBXNativeTarget "YouTube" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AECF320171D5194000722FA /* Debug */,
-				7AECF321171D5194000722FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AECF329171D51C3000722FA /* Build configuration list for PBXNativeTarget "YouTube SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AECF32A171D51C3000722FA /* Debug */,
-				7AECF32B171D51C3000722FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		949BCB89172A993000D706D4 /* Build configuration list for PBXNativeTarget "Buffer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				949BCB8A172A993000D706D4 /* Debug */,
-				949BCB8B172A993000D706D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -6936,51 +4332,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AABBECFC162F0835009D46E4 /* Build configuration list for PBXNativeTarget "Kippt" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBECFD162F0835009D46E4 /* Debug */,
-				AABBECFE162F0835009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED05162F0858009D46E4 /* Build configuration list for PBXNativeTarget "Delicious" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED06162F0858009D46E4 /* Debug */,
-				AABBED07162F0858009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED0E162F087F009D46E4 /* Build configuration list for PBXNativeTarget "Diigo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED0F162F087F009D46E4 /* Debug */,
-				AABBED10162F087F009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED18162F08A3009D46E4 /* Build configuration list for PBXNativeTarget "VKontakte" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED19162F08A3009D46E4 /* Debug */,
-				AABBED1A162F08A3009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED21162F08E6009D46E4 /* Build configuration list for PBXNativeTarget "Evernote" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED22162F08E6009D46E4 /* Debug */,
-				AABBED23162F08E6009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AABBED34162F0B65009D46E4 /* Build configuration list for PBXNativeTarget "Facebook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6990,65 +4341,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AABBED43162F0B86009D46E4 /* Build configuration list for PBXNativeTarget "FoursquareV2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED44162F0B86009D46E4 /* Debug */,
-				AABBED45162F0B86009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED4D162F0BA7009D46E4 /* Build configuration list for PBXNativeTarget "Flickr" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED4E162F0BA7009D46E4 /* Debug */,
-				AABBED4F162F0BA7009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED5F162F0BE8009D46E4 /* Build configuration list for PBXNativeTarget "Instapaper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED60162F0BE8009D46E4 /* Debug */,
-				AABBED61162F0BE8009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AABBED68162F0C03009D46E4 /* Build configuration list for PBXNativeTarget "LinkedIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AABBED69162F0C03009D46E4 /* Debug */,
 				AABBED6A162F0C03009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED71162F0C1A009D46E4 /* Build configuration list for PBXNativeTarget "Pinboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED72162F0C1A009D46E4 /* Debug */,
-				AABBED73162F0C1A009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AABBED83162F0C4D009D46E4 /* Build configuration list for PBXNativeTarget "Tumbl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AABBED84162F0C4D009D46E4 /* Debug */,
-				AABBED85162F0C4D009D46E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC21961318EA885D003DF6BD /* Build configuration list for PBXNativeTarget "OneNote" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC21960F18EA885D003DF6BD /* Debug */,
-				AC21961018EA885D003DF6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
